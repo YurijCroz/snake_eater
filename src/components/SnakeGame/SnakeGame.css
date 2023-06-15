@@ -1,0 +1,30 @@
+
+.game-board {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  border: 1px solid #000;
+}
+
+.snake-segment {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: #000;
+}
+
+.fruit {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: #f00;
+}
+
+.game-status {
+  position: absolute;
+  right: -100px;
+}
+
+.score {
+  margin-top: 10px;
+}
